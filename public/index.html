@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind CSS Starter</title>
+  <link rel="stylesheet" href="dist/styles.css" />
+  <script src="dist/script.js"></script>
+</head>
+
+<body>
+  
+  
+
+  <!-- Hero -->
+  <section
+    class="pt-24 md:mt-0 md:h-screen flex flex-col justify-center text-center md:text-left md:flex-row md:justify-between md:items-center lg:px-48 md:px-12 px-4 bg-secondary">
+    <div class="md:flex-1 md:mr-10">
+      <h1 class="font-pt-serif text-5xl font-bold mb-7">
+        <span class="bg-underline1 bg-left-bottom bg-no-repeat pb-2 bg-100%">
+          Presentación
+        </span>
+      </h1>
+      <p class="font-pt-serif font-normal mb-7">
+        Jean Carlos Buenfil Aguilar
+      </p>
+      <p class="font-pt-serif font-normal mb-7">
+        21 años
+      </p>
+      
+
+    </div>
+    <div class="flex justify-around md:block mt-8 md:mt-0 md:flex-1">
+      <div class="relative">
+        <img src='dist/assets/Highlight1.svg' alt="" class="absolute -top-16 -left-10" />
+      </div>
+      <img src='dist/assets/image.png' alt="Macbook" />
+      
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="bg-black text-white sectionSize">
+    <div>
+      <h2 class="secondaryTitle bg-underline2 bg-100%">Educación</h2>
+    </div>
+    <div class="flex flex-col md:flex-row">
+      <div class="flex-1 mx-8 flex flex-col items-center my-4">
+       
+        <h3 class="font-montserrat font-medium text-xl mb-2">Carrera</h3>
+        <p class="text-center font-montserrat">
+          Licenciatura en ingeniería de Software
+        </p>
+      </div>
+
+      <div class="flex-1 mx-8 flex flex-col items-center my-4">
+        <h3 class="font-montserrat font-medium text-xl mb-2">Cursos</h3>
+        <p class="text-center font-montserrat">
+          <ol>
+            <li>Git and Github basics</li>
+            <li>Agile Project Using the Salesforce Platform</li>
+            <li>Conceptos básicos de redes</li>
+          </ol>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="sectionSize bg-secondary">
+    <div>
+      <h2 class="secondaryTitle bg-underline3 bg-100%">Experiencia</h2>
+    </div>
+    <div class="md:grid md:grid-cols-2 md:grid-rows-2">
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">TypePerfect</h3>
+          <p>
+            Un pequeño programa hecho en Java que permitía practicar la escritura en teclado,
+            permitiendo escoger tiempo de práctica y mano con la cual practicar
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">ScrumOps</h3>
+          <p>
+            Metodología ideada como proyecto de V&V, principalmente introducía
+            herramientas y procesos de DevOps a los sprints de Scrum para
+            asegurar la calidad sin perder la característica ágil de la metodología
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Plan de SQA</h3>
+          <p>
+            Plan de SQA realizado como proyecto de Aseguramiento de la Calidad, 
+            abarcó la etapa de requisitos y la etapa de diseño en el ciclo de
+            desarrollo de la empresa GLUO
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-start font-montserrat my-6 mr-10">
+        <img src='dist/assets/logos/Heart.svg' alt='' class="h-7 mr-4" />
+        <div>
+          <h3 class="font-semibold text-2xl">Actividades de prácticas</h3>
+          <p>
+            El proyecto consiste en el reconocimiento de audios para identificar 
+            lenguas indígenas, entre las herramientas utilizadas se encuentran Python,
+            Praat y redes neuronales convolucionales    
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ 
+  
+
+  
+</body>
+
+</html>
